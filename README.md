@@ -1,6 +1,8 @@
 
 
 ## Usage
+Git clone this repository and cd into the folder where `docker-compose.yml` file is located.
+
 **Start the Services:** Run ```docker-compose up -d``` to start MongoDB and Mongo Express. The -d flag runs them in the background.
 
 **Access MongoDB:** Connect to MongoDB using the connection string: ```mongodb://rootuser:rootpass@localhost:27017```.
